@@ -2,7 +2,7 @@
 
 Code, preregistrations and result records for the paper
 
-> S. Keser, "When Does Update Gating Help Real-Time Line-Scan Hyperspectral Anomaly Detection? A Reproduced, Two-Stage Preregistered Evaluation," submitted to *Journal of Real-Time Image Processing*, 2026.
+> S. Keser, "# Preregistered Evaluation of a Label-Free Update Gate for Real-Time Line-Scan Hyperspectral Anomaly Detection," submitted to *Journal of Real-Time Image Processing*, 2026.
 
 ERX [1] keeps a momentum-updated Gaussian background model in a sparse random projection of each scan line. Every update can absorb anomalous pixels, and every skipped update lets the model fall behind the scene. The shadow gate prepares three candidate updates from line t−1 (skip, Trim05, Trim10, the trimmed covariances corrected for consistency), scores them on the unseen line t with a robust Gaussian cost, and commits the best one. Scores for a line are always produced by the model committed before that line was seen, and no label enters any decision.
 
