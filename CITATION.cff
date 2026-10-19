@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Shadow update gate for ERX: code, preregistrations and result records"
+authors:
+  - family-names: Keser
+    given-names: Serkan
+    affiliation: "Kırşehir Ahi Evran University, Department of Electrical and Electronics Engineering"
+license: MIT
+date-released: 2026-10-19
+preferred-citation:
+  type: article
+  title: "When Does Update Gating Help Real-Time Line-Scan Hyperspectral Anomaly Detection? A Reproduced, Two-Stage Preregistered Evaluation"
+  authors:
+    - family-names: Keser
+      given-names: Serkan
+  journal: "Journal of Real-Time Image Processing"
+  year: 2026
+  notes: "Submitted"
